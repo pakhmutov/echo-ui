@@ -1,0 +1,19 @@
+@use './reset.scss';
+@use './base.scss';
+@use './themes';
+@use './mixins';
+
+.root {
+  background: #080808;
+  color: #f8f8f8;
+
+  @include themes.theme-common;
+}
+
+:root:has(body.root--theme_light) {
+  color-scheme: light;
+}
+
+:root:has(body.root--theme_dark) {
+  color-scheme: dark;
+}

@@ -1,0 +1,14 @@
+@use './spacing';
+@use './typography';
+
+@mixin theme-common {
+  @include typography.variables;
+  @include spacing.variables;
+
+  --border-radius-xs: 3px;
+  --border-radius-s: 5px;
+  --border-radius-m: 6px;
+  --border-radius-l: 8px;
+  --border-radius-xl: 10px;
+  --border-radius-xxl: 16px;
+}
