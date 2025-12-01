@@ -50,13 +50,20 @@
 @keyframes flicker-logo {
 
   0%,
+  85%,
+  90%,
   95% {
-    filter: drop-shadow(0 0 4px currentColor);
+    filter: drop-shadow(0 0 3px currentColor);
   }
 
-  97%,
+  86%,
+  89% {
+    filter: drop-shadow(0 0 4px currentColor) drop-shadow(0 0 6px rgb(0, 225, 255));
+  }
+
+  96%,
   100% {
-    filter: drop-shadow(0 0 5px currentColor) drop-shadow(0 0 6px currentColor) drop-shadow(0 0 8px rgb(0, 225, 255)) drop-shadow(0 0 15px rgb(0, 179, 255));
+    filter: drop-shadow(0 0 2px currentColor);
   }
 }
 
@@ -71,14 +78,12 @@
   100% {
 
     text-shadow:
+      0 0 2px #fff,
       0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 20px #fff,
-      0 0 30px rgb(0, 225, 255),
-      0 0 50px rgb(0, 234, 255),
-      0 0 60px rgb(0, 179, 255),
-      0 0 80px rgb(0, 179, 255),
-      0 0 100px rgb(0, 195, 255);
+      0 0 6px #fff,
+      0 0 8px rgb(0, 225, 255),
+      0 0 12px rgb(0, 179, 255),
+      0 0 16px rgb(0, 179, 255);
 
   }
 
