@@ -17,7 +17,6 @@
         fill="currentColor" transform="translate(96,176)" />
     </svg>
 
-
     <span class="title">echo??</span>
   </div>
 </template>
@@ -76,7 +75,6 @@
   53%,
   57%,
   100% {
-
     text-shadow:
       0 0 2px #fff,
       0 0 4px #fff,
@@ -84,7 +82,6 @@
       0 0 8px rgb(0, 225, 255),
       0 0 12px rgb(0, 179, 255),
       0 0 16px rgb(0, 179, 255);
-
   }
 
   20%,
